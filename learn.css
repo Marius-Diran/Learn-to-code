@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.contents{
+    margin: 35vh 0 0 0;
+    width: 40%;
+}
+
+.contents h1{
+    width: 90%;
+    font-size: 3rem;
+    color: hsl(0, 0%, 100%);
+    padding: 0 0 3vh 0;
+}
+
+.contents p{
+    line-height: 4vh;
+    color: hsl(0, 0%, 100%);
+}
+
+.p-1{
+    color: hsl(0, 0%, 100%);
+    float: right;
+    width: 60%;
+    height: 9vh;
+    border-radius: 4px;
+    background-color: hsl(248, 32%, 49%);
+    box-shadow: 0 5px 1px hsla(0, 0%, 0%, 0.2);
+    margin: -55vh 0vw 0 0;
+    box-sizing: border-box;
+}
+
+.p-1 p{
+    padding: 3vh 0 0 15vw;
+}
+
+.my-form{
+    float: right;
+    border-radius: 3px;
+    background-color: hsl(0, 0%, 100%);
+    width: 60%;
+    height: 70vh;
+    margin: -42vh 0 0 0;
+}
+
+.my-form input[type="text"]{
+    border: 1px solid hsl(0, 0%, 30%);
+    border-radius: 4px;
+    display: block;
+    width: 90%;
+    height: 7vh;
+    padding: 0 0 0 3vw;
+    margin: 5vh auto;
+}
+
+.my-form input[type="password"]{
+    border: 1px solid hsl(0, 0%, 30%);
+    border-radius: 4px;
+    display: block;
+    width: 90%;
+    height: 7vh;
+    padding: 0 0 0 3vw;
+    margin: 5vh auto;
+}
+
+.button{
+    border: 1px solid hsl(154, 59%, 51%);
+    background-color: hsl(154, 59%, 51%);
+    color: hsl(0, 0%, 100%);
+    display: block;
+    width: 90%;
+    height: 7vh;
+    font-weight: 700;
+    text-align: center;
+    margin: 5vh auto 2vh;
+    border-radius: 4px;
+}
+
+.my-form p{
+    color: hsl(0, 0%, 35%);
+    font-size: 0.9rem;
+    padding: 0 0 0 10vw;
+}
+
+.tc{
+    color: hsl(0, 100%, 50%);
+}
+
+@media (max-width: 500px){
+    body{
+        background-image: url(images/bg-intro-mobile.png);
+    }
+
+    .contents{
+        margin: 0;
+        width: 100%;
+    }
+
+    .contents h1{
+        font-size: 8vw;
+        margin: 8vh 0 3vh 12vw;
+        width: 100%;
+    }
+
+    .contents p{
+        width: 100;
+        font-size: 4vw;
+        line-height: 5vh;
+        text-align: center;
+    }
+
+    .p-1{
+        margin: 8vh auto 4vh;
+        width: 100%;
+        height: fit-content;
+        float: none;
+    }
+
+    .p-1 p{
+        text-align: center;
+        padding: 3vh 0 3vh 18vw;
+        width: 80%;
+        font-size: 4vw;
+    }
+
+    .my-form{
+        width: 100%;
+        margin: 7vh auto;
+        height: fit-content;
+    }
+
+    .my-form p{
+        padding: 3vh 0 5vh 10vw;
+        font-size: 2.8vw;
+        width: 85%;
+        text-align: center;
+    }
+}
